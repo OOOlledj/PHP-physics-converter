@@ -1,0 +1,56 @@
+html {
+    font-size: 20px;
+    background-color: #bbd6f8;
+}
+
+header {
+    display: flex;
+}
+
+header h1{
+    flex:1;
+    text-align: center;
+    border-style: solid;
+    margin-left: 110px;
+    margin-right: 120px;
+}
+
+main {
+    display: flex;
+}
+  
+aside {
+    flex: 3;
+    margin-left: 110px;
+    border-style: solid;
+}
+
+aside ul{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+aside h3{
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:-15px;
+}   
+
+article {
+    flex: 7;
+    margin-left: 50px;
+    margin-right: 120px;
+    border-style: solid;
+}
+
+article h2{ text-align: center; }
+
+address{
+    text-align: center;
+    margin-top: 25px;
+    font-size:20px;
+}
+table{
+    font-size: 12px;
+}
